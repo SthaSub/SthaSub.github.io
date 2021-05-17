@@ -10,7 +10,7 @@ const Nav = () => {
           <div className="col-10 mx-auto">
             <nav className="navbar navbar-expand-lg navbar-dark">
               <div className="container-fluid">
-                <Link className="navbar-brand " to="/my-react-portfolio">
+                <Link className="navbar-brand " to="/">
                   Subhash
                 </Link>
                 <button
@@ -32,9 +32,9 @@ const Nav = () => {
                     
                     <li className="nav-item">
                       <Link
-                        to="/my-react-portfolio"
+                        to="/"
                         className={
-                          location.pathname === "/my-react-portfolio"
+                          location.pathname === "/"
                             ? "nav-link active"
                             : "nav-link"
                         }
@@ -45,9 +45,9 @@ const Nav = () => {
                     </li>
                     <li className="nav-item">
                       <Link
-                        to="/my-react-portfolio/portfolio"
+                        to="/portfolio"
                         className={
-                          location.pathname === "/my-react-portfolio/portfolio"
+                          location.pathname === "/portfolio"
                             ? "nav-link active"
                             : "nav-link"
                         }
@@ -57,9 +57,9 @@ const Nav = () => {
                     </li>
                     <li className="nav-item">
                       <Link
-                        to="/my-react-portfolio/contact"
+                        to="/contact"
                         className={
-                          location.pathname === "/my-react-portfolio/contact"
+                          location.pathname === "/contact"
                             ? "nav-link active"
                             : "nav-link"
                         }
