@@ -5,8 +5,8 @@ const Footer = () => {
       <div className="container-fluid">
         <div className="row">
           <div className="col-10 mx-auto">
-            <footer id="sticky-footer" class="py-4 bg-secondary text-white-50">
-              <div class="container text-center text-white">
+            <footer id="sticky-footer" className="py-4 bg-secondary text-white-50">
+              <div className="container text-center text-white">
                 <strong>Copyright &copy;</strong>
               </div>
             </footer>
