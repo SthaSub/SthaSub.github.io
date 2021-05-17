@@ -1,0 +1,23 @@
+.navbar-brand{
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  .navbar{
+    background: gray;
+  }
+  .nav-link.active{
+    font-weight: bold;
+    border-bottom: 1px solid white;
+  }
+
+  
+  .nav-link:hover{
+    cursor: pointer;
+    color: yellow;
+  }
+
+  .project{
+    height: 100%;
+    width: 100%;
+    border-radius: 2px;
+  }
