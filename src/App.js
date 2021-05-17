@@ -13,10 +13,10 @@ function App() {
       <Router>
         <Nav />
         <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/portfolio" component={Portfolio} />
-          <Route exact path="/contact" component={Contact} />
-          <Redirect to="/" />
+          <Route exact path="/my-react-portfolio" component={Home} />
+          <Route exact path="/my-react-portfolio/portfolio" component={Portfolio} />
+          <Route exact path="/my-react-portfolio/contact" component={Contact} />
+          <Redirect to="/my-react-portfolio" />
         </Switch>
         <Footer />
       </Router>
