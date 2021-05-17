@@ -3,10 +3,11 @@ import Home from "./pages/Home";
 import { BrowserRouter as Router, Redirect, Route, Switch } from "react-router-dom";
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.bundle";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
+
 function App() {
   return (
     <div>
