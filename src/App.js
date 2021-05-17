@@ -7,11 +7,13 @@ import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import { createBrowserHistory } from "history";
+
 
 function App() {
   return (
     <div>
-      <Router>
+      <Router history={history}>
         <Nav />
         <Switch>
           <Route exact path="/" component={Home} />
