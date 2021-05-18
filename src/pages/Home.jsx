@@ -1,5 +1,6 @@
 import React from "react";
 const Home = () => {
+  console.log("HOME")
   return (
     <main>
       <div className="container-fluid">
