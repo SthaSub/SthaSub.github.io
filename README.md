@@ -19,7 +19,7 @@
    [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
    
    ## Live link to deployed app
-   [My React Porfolio](https://SthaSub.github.io/my-react-portfolio)
+   [My React Porfolio](https://SthaSub.github.io/)
    
    ## Contact information
    if you have questions then please feel free to contact on these addresses,
