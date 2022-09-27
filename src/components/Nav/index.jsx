@@ -68,7 +68,7 @@ const Nav = () => {
                       </Link>
                     </li>
                     <li className="nav-item">
-                        <a href={`${process.env.PUBLIC_URL}/files/Resume.docx`} download="resume" className="nav-link">Resume</a>
+                        <a href={`${process.env.PUBLIC_URL}/files/Resume.pdf`} download="resume" className="nav-link">Resume</a>
                     </li>    
                   </ul>
                 </div>
